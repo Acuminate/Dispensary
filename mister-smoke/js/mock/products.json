@@ -1,0 +1,44 @@
+{
+  "products": [
+    {
+      "name": "Ultra Pills CBD",
+      "description": "Adipiscing inciderint est in. Ius nusquam oportere et, ius ea maz",
+      "totalPrice": 24,
+      "discountPrice": 12.52,
+      "image": "images/products/product-01-560x600.png",
+      "stars": 5,
+      "disponibility": "hot",
+      "category": "teste",
+      "thc": 10,
+      "cbd": 0,
+      "size": ["1g", "3.5g"],
+      "type": ["blend"]
+    },
+    {
+      "name": "CBD Star Night Lotion",
+      "description": "Mel tale nonumy ea. Illum dicunt usu te. Ne iisque equidem defini",
+      "totalPrice": 24,
+      "image": "images/products/product-01-560x600.png",
+      "stars": 5,
+      "disponibility": "sale",
+      "category": "Dry Flower",
+      "thc": 10,
+      "cbd": 0,
+      "size": ["1g", "3.5g"],
+      "type": ["blend"]
+    },
+    {
+      "name": "CBD Star Night Lotion",
+      "description": "Mel tale nonumy ea. Illum dicunt usu te. Ne iisque equidem defini",
+      "totalPrice": 24,
+      "image": "images/products/product-01-560x600.png",
+      "stars": 5,
+      "disponibility": "sale",
+      "category": "Dry Flower",
+      "thc": 10,
+      "cbd": 0,
+      "size": ["1g", "3.5g"],
+      "type": ["blend"]
+    }
+  ]
+}
