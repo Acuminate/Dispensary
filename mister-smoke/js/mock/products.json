@@ -2,12 +2,12 @@
   "products": [
     {
       "name": "Flower Sativa",
-      "description": "Adipiscing inciderint est in. Ius nusquam oportere et, ius ea maz",
+      "description": "Adipiscing inciderint est in. Ius nusquam oportere et, ius ea mazAdipiscing inciderint est in. Ius nusquam oportere et, ius ea mazAdipiscing inciderint est in. Ius nusquam oportere et, ius ea mazAdipiscing inciderint est in. Ius nusquam oportere et, ius ea mazAdipiscing inciderint est in. Ius nusquam oportere et, ius ea mazAdipiscing inciderint est in. Ius nusquam oportere et, ius ea maz",
       "totalPrice": 24,
       "discountPrice": 12.52,
       "image": "images/products/product-01-560x600.png",
       "stars": 5,
-      "disponibility": "Sativa",
+      "disponibility": "Sativa 20%",
       "category": "sativa",
       "thc": 10,
       "cbd": 0,
@@ -15,7 +15,7 @@
       "type": ["blend"]
     },
     {
-      "name": "Hybrid flo Flower",
+      "name": "Hybrid flo Flower 25%",
       "description": "Mel tale nonumy ea. Illum dicunt usu te. Ne iisque equidem defini",
       "totalPrice": 24,
       "image": "images/products/product-01-560x600.png",
