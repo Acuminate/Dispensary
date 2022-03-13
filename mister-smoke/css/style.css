@@ -12198,6 +12198,12 @@ html:not(.ie-11):not(.ios) .parallax-disabled {
 	display: flex;
 }
 
+.rd-range-input {
+	border: none;
+	display: block;
+	width: 25px;
+}
+
 /*
 *
 * Slick Carousel
@@ -12564,4 +12570,36 @@ html:not(.ie-11):not(.ios) .parallax-disabled {
 .stepper.disabled .stepper-arrow {
 	pointer-events: none;
 	opacity: .5;
+}
+
+.rd-range-wrap {
+	margin-bottom: 20px;
+}
+
+.rd-range-divider {
+	margin: 0 5px 0 10px;
+}
+
+.back-bar {
+	height: 4px !important;
+}
+
+.selected-bar {
+	background: #8EB360 !important;
+}
+
+.pointer.low,
+.pointer.high
+{
+	background: #8EB360 !important;
+	width: 16px !important;
+	height: 16px !important;
+}
+
+.pointer-label {
+	display: none;
+}
+
+.scale {
+	display: none;
 }

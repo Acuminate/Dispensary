@@ -8,21 +8,21 @@
       "image": "images/products/product-01-560x600.png",
       "stars": 5,
       "disponibility": "Sativa 20%",
-      "category": ["sativa"],
-      "thc": 20,
+      "category": ["sativa", "indica"],
+      "thc": 21,
       "cbd": 0,
       "size": ["1g", "3.5g"],
       "type": ["blend"]
     },
     {
-      "name": "Hybrid flo Flower 25%",
+      "name": "Hybrid Flower 25%",
       "description": "Mel tale nonumy ea. Illum dicunt usu te. Ne iisque equidem defini",
       "totalPrice": 24,
       "image": "images/products/product-01-560x600.png",
       "stars": 5,
       "disponibility": "Hybrid",
       "category": ["hybrid"],
-      "thc": 25,
+      "thc": 35,
       "cbd": 0,
       "size": ["1g", "3.5g"],
       "type": ["blend"]
@@ -35,7 +35,7 @@
       "stars": 5,
       "disponibility": "Deal",
       "category": ["deals"],
-      "thc": 27,
+      "thc": 30,
       "cbd": 0,
       "size": ["1g", "3.5g"],
       "type": ["blend"]
@@ -48,11 +48,23 @@
       "stars": 5,
       "disponibility": "Indica",
       "category": ["indica"],
-      "thc": 29,
+      "thc": 25,
+      "cbd": 0,
+      "size": ["1g", "3.5g"],
+      "type": ["blend"]
+    },
+    {
+      "name": "CUUUU",
+      "description": "Mel tale nonumy ea. Illum dicunt usu te. Ne iisque equidem defini",
+      "totalPrice": 24,
+      "image": "images/products/product-01-560x600.png",
+      "stars": 5,
+      "disponibility": "Indica",
+      "category": ["exotics"],
+      "thc": 40,
       "cbd": 0,
       "size": ["1g", "3.5g"],
       "type": ["blend"]
     }
-    
   ]
 }

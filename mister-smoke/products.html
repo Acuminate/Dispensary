@@ -14,6 +14,7 @@
       type="text/css"
       href="//fonts.googleapis.com/css2?family=Red+Hat+Display:ital,wght@0,400;0,500;0,700;0,900;1,700&amp;display=swap"
     />
+    <link rel="stylesheet" href="css/jquery.range.css" />
     <link rel="stylesheet" href="css/bootstrap.css" />
     <link rel="stylesheet" href="css/fonts.css" />
     <link rel="stylesheet" href="css/style.css" />
@@ -212,16 +213,18 @@
                 <div class="col-sm-6 col-lg-12">
                   <div class="product-sidebar-category-item">
                     <h4 class="product-sidebar-category-item-title">THC</h4>
+                    <!-- <input type="hidden" class="range-slider" value="20, 40" /> -->
+
                     <div class="rd-range-wrap">
                       <div class="rd-range-form-wrap">
-                        <div class="rd-range-input rd-range-input-value-1"></div><span>%</span>
+                        <div class="rd-range-input rd-range-input-value-1">20%</div>
                       </div>
                       <div class="rd-range-divider">&nbsp;-&nbsp;</div>
                       <div class="rd-range-form-wrap">
-                        <div class="rd-range-input rd-range-input-value-2"></div><span>%</span>
+                        <div class="rd-range-input rd-range-input-value-2">25%</div>
                       </div>
                     </div>
-                    <div class="rd-range" data-min="20" data-max="40" data-start="[20, 25]" data-step="1" data-tooltip="false" data-min-diff="1" data-input=".rd-range-input-value-1" data-input-2=".rd-range-input-value-2"></div>
+                    <input type="hidden" class="range-slider" value="20, 25" />
                   </div>
                 </div>
 
@@ -792,6 +795,7 @@
     <div class="snackbars" id="form-output-global"></div>
     <script src="js/src/index.js" type="module"></script>
     <script src="js/core.min.js"></script>
+    <script src="js/jquery.range-min.js"></script>
     <script src="js/script.js"></script>
   </body>
 </html>
