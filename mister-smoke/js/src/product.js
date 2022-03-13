@@ -129,6 +129,5 @@ export function Product(product) {
           </div>
         </div>
       </article>
-    </div>
-  `;
+    </div>`;
 }
