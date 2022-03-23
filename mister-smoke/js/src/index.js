@@ -63,7 +63,7 @@ checkboxField.forEach((element) => {
 
       lastFiltered.push(filterByCategories);
       
-      div.innerHTML = filterByCategories.map((product) => Product(product));
+      div.innerHTML = filterByCategories.map((product) => Product(product)).join('');
     } else {
       const findCheckBoxIndex = categories.findIndex(category => category === value);
       
@@ -75,11 +75,11 @@ checkboxField.forEach((element) => {
 
       lastFiltered.push(filterByCategories);
 
-      div.innerHTML = filterByCategories.map((product) => Product(product));
+      div.innerHTML = filterByCategories.map((product) => Product(product)).join('');
     }
 
     if (categories.length === 0) {
-      div.innerHTML = lastFilteredProductArray.map((product) => Product(product));
+      div.innerHTML = lastFilteredProductArray.map((product) => Product(product)).join('');
     }
   })
 });
@@ -107,6 +107,6 @@ $('.range-slider').jRange({
 
     productsFiltered.push(thcFilter);
 
-    div.innerHTML = thcFilter.map((product) => Product(product));
+    div.innerHTML = thcFilter.map((product) => Product(product)).join('');
   }
 });
