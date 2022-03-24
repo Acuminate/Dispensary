@@ -2,7 +2,7 @@
   "products": [
     {
       "name": "Flower Sativa",
-      "description": "Adipiscing inciderint est in. Ius nusquam oportere et, ius ea mazAdipiscing inciderint est in. Ius nusquam oportere et, ius ea mazAdipiscing inciderint est in. Ius nusquam oportere et, ius ea mazAdipiscing inciderint est in. Ius nusquam oportere et, ius ea mazAdipiscing inciderint est in. Ius nusquam oportere et, ius ea mazAdipiscing inciderint est in. Ius nusquam oportere et, ius ea maz",
+      "description": "",
       "totalPrice": 24,
       "discountPrice": 12.52,
       "image": "../../images/products/product-single-01-560x600.png",
@@ -16,7 +16,7 @@
     },
     {
       "name": "Hybrid flo Flower 25%",
-      "description": "Mel tale nonumy ea. Illum dicunt usu te. Ne iisque equidem defini",
+      "description": "",
       "totalPrice": 24,
       "image": "images/products/product-01-560x600.png",
       "stars": 5,
@@ -29,7 +29,7 @@
     },
     {
       "name": "Purple Deal",
-      "description": "Mel tale nonumy ea. Illum dicunt usu te. Ne iisque equidem defini",
+      "description": "",
       "totalPrice": 24,
       "image": "images/products/product-01-560x600.png",
       "stars": 5,
@@ -42,7 +42,7 @@
     },
     {
       "name": "indica Flower",
-      "description": "Mel tale nonumy ea. Illum dicunt usu te. Ne iisque equidem defini",
+      "description": "",
       "totalPrice": 24,
       "image": "images/products/product-01-560x600.png",
       "stars": 5,
