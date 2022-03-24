@@ -12,6 +12,8 @@ fetch("./js/mock/products.json").then(j => j.json()).then(r => {
   const checkboxField = document.querySelectorAll('input[type="checkbox"]');
   const divMin = document.querySelector('.rd-range-input-value-1');
   const divMax = document.querySelector('.rd-range-input-value-2');
+  const divMinMoney = document.querySelector('.rd-range-input-value-3');
+  const divMaxMoney = document.querySelector('.rd-range-input-value-4');
   
   div.innerHTML = products.map((product) => Product(product));
   
@@ -103,6 +105,37 @@ fetch("./js/mock/products.json").then(j => j.json()).then(r => {
   
       const thcFilter = products.filter(between => {
         return between.thc >= min && between.thc <= sumMax;
+      });
+  
+      productsFiltered.push(thcFilter);
+  
+      div.innerHTML = thcFilter.map((product) => Product(product)).join('');
+    }
+  });
+
+  $('.range-slider-money').jRange({
+    from: 0,
+    to: 300,
+    step: 2,
+    step: 1,
+    format: '%s',
+    width: '100%',
+    showLabels: true,
+    isRange : true,
+    onstatechange: (value) => {
+      const [min, max] = value.split(',');
+  
+      const sumMax = max === min ? Number(max) + 1 : max;
+  
+      divMinMoney.innerHTML = `$${min}`;
+      divMaxMoney.innerHTML = `$${sumMax}`;
+  
+      const thcFilter = products.filter(between => {
+        if (between.discountPrice) {
+          return between.discountPrice >= min && between.discountPrice <= sumMax;
+        }
+
+        return between.totalPrice >= min && between.totalPrice <= sumMax;
       });
   
       productsFiltered.push(thcFilter);

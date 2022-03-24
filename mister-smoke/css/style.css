@@ -1619,7 +1619,7 @@ a[href*='tel'], a[href*='mailto'] {
 }
 
 .link-image {
-	display: inline-block;
+	/* display: inline-block; */
 	overflow: hidden;
 }
 
