@@ -7,7 +7,7 @@
       "discountPrice": 12.52,
       "image": "../../images/products/product-02-560x600.png",
       "stars": 5,
-      "disponibility": "Sativa 20%",
+      "disponibility": "Sativa",
       "category": ["sativa"],
       "thc": 20,
       "cbd": 0,
@@ -15,7 +15,7 @@
       "type": ["blend"]
     },
     {
-      "name": "Hybrid flo Flower 25%",
+      "name": "Hybrid flo Flower",
       "description": "",
       "totalPrice": 24,
       "image": "../../images/products/product-02-560x600.png",
