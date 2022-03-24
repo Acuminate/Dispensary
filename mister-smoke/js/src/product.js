@@ -5,7 +5,7 @@ export function Product(product) {
   return `
     <div class="col-sm-6 col-lg-4">
       <article class="product-classic">
-        <div class="product-classic-header">
+        <div>
           <figure class="link-image image-block">
             <img
               src="${product.image}"
