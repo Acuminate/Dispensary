@@ -25,7 +25,7 @@ export function Product(product) {
               <div className="product-classic-rating">
                 <div className="rating">
                   <div className="rating-empty">
-                    <div class="price-current">THC 24%</div>
+                    <div class="price-current">THC ${product.thc}%</div>
                   </div>
                 </div>
               </div>
@@ -40,13 +40,13 @@ export function Product(product) {
             ${
               !product.discountPrice
                 ? ""
-                : `<div class="price-old">${transformPrice(24)}</div>`
+                : `<div class="price-old">${transformPrice(product.totalPrice)}</div>`
             }
             <div class="price-current">${
               product.discountPrice
                 ? transformPrice(product.discountPrice)
                 : transformPrice(product.totalPrice)
-            }</div>
+            }cu</div>
           </div>
         </div>
       </article>
