@@ -9,7 +9,8 @@ fetch("./js/mock/products.json").then(j => j.json()).then(r => {
   
   const buttonForm = document.querySelector('.rd-form');
   const inputField = document.getElementById('rd-search-form-input');
-  const checkboxField = document.querySelectorAll('input[type="checkbox"]');
+  const checkboxField = document.querySelectorAll('.categories');
+  const checkBoxSizeField = document.querySelectorAll('.sizes');
   const divMin = document.querySelector('.rd-range-input-value-1');
   const divMax = document.querySelector('.rd-range-input-value-2');
   const divMinMoney = document.querySelector('.rd-range-input-value-3');
@@ -73,6 +74,43 @@ fetch("./js/mock/products.json").then(j => j.json()).then(r => {
   
         const filterByCategories = lastFilteredProductArray.filter(product => {
           return product.category.some(typeCategory => categories.includes(typeCategory))
+        });
+  
+        lastFiltered.push(filterByCategories);
+  
+        div.innerHTML = filterByCategories.map((product) => Product(product)).join('');
+      }
+  
+      if (categories.length === 0) {
+        div.innerHTML = lastFilteredProductArray.map((product) => Product(product)).join('');
+      }
+    })
+  });
+
+  checkBoxSizeField.forEach((element) => {
+    element.addEventListener('click', (checkboxEvent) => {
+      const lastFilteredItem = productsFiltered[productsFiltered.length - 1] ? productsFiltered[productsFiltered.length - 1] : [];
+  
+      const lastFilteredProductArray = lastFilteredItem.length <= 0 ? products : lastFilteredItem;
+      const value = checkboxEvent.target.value;
+  
+      if (checkboxEvent.target.checked) {
+        categories.push(value);
+        
+        const filterByCategories = lastFilteredProductArray.filter(product => {
+          return product.size.some(typeCategory => categories.includes(typeCategory))
+        });
+  
+        lastFiltered.push(filterByCategories);
+        
+        div.innerHTML = filterByCategories.map((product) => Product(product)).join('');
+      } else {
+        const findCheckBoxIndex = categories.findIndex(category => category === value);
+        
+        categories.splice(findCheckBoxIndex, 1);
+  
+        const filterByCategories = lastFilteredProductArray.filter(product => {
+          return product.size.some(typeCategory => categories.includes(typeCategory))
         });
   
         lastFiltered.push(filterByCategories);
