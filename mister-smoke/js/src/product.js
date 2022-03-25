@@ -46,7 +46,7 @@ export function Product(product) {
               product.discountPrice
                 ? transformPrice(product.discountPrice)
                 : transformPrice(product.totalPrice)
-            }cu</div>
+            }</div>
           </div>
         </div>
       </article>
