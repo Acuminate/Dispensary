@@ -25,7 +25,7 @@ export function Product(product) {
               <div className="product-classic-rating">
                 <div className="rating">
                   <div className="rating-empty">
-                    <div class="price-current">THC 24%</div>
+                    <div class="price-current">THC ${product.thc}%</div>
                   </div>
                 </div>
               </div>
