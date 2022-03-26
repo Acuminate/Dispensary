@@ -39,7 +39,7 @@
       "category": ["Indica"],
       "thc": 24,
       "cbd": 0,
-      "size": ["1g", "3.5g"],
+      "size": ["3.5g"],
       "type": ["blend"]
     },
     {
@@ -53,7 +53,7 @@
       "category": ["Indica"],
       "thc": 27,
       "cbd": 0,
-      "size": ["10g"],
+      "size": ["7g"],
       "type": ["blend"]
     },
     {
@@ -67,7 +67,7 @@
       "category": ["indica"],
       "thc": 29,
       "cbd": 0,
-      "size": ["3.5g", "7g", "14g", "Oz" ],
+      "size": ["7g"],
       "type": ["blend"]
     }
     
