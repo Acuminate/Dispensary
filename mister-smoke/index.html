@@ -1,5 +1,4 @@
 <!-- Smoke and Toke Website  -->
-
 <!DOCTYPE html>
 <html class="wide wow-animation" lang="en">
   <head>
@@ -12,6 +11,9 @@
     <link rel="stylesheet" href="css/bootstrap.css">
     <link rel="stylesheet" href="css/fonts.css">
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" type="text/css" href="css/slick.css"/>
+    // Add the new slick-theme.css if you want the default styling
+    <link rel="stylesheet" type="text/css" href="css/slick-theme.css"/>
   </head>
   <body>
     <div class="preloader">
@@ -22,25 +24,20 @@
       </div>
     </div>
     <div class="page">
-
-
-
-        <!-- HEADER  -->
-        <header class="section page-header">   
+      <!-- HEADER  -->
+      <header class="section page-header">
         <div class="rd-navbar-wrap">
           <nav class="rd-navbar rd-navbar-classic" data-layout="rd-navbar-fixed" data-sm-layout="rd-navbar-fixed" data-md-layout="rd-navbar-fixed" data-lg-layout="rd-navbar-fixed" data-xl-layout="rd-navbar-static" data-xxl-layout="rd-navbar-static" data-md-device-layout="rd-navbar-fixed" data-lg-device-layout="rd-navbar-fixed" data-xl-device-layout="rd-navbar-static" data-xxl-device-layout="rd-navbar-static" data-xl-stick-up-offset="3px" data-xxl-stick-up-offset="3px" data-xl-stick-up="true" data-xxl-stick-up="true">
             <div class="rd-navbar-main-outer">
               <div class="rd-navbar-main">
                 <div class="rd-navbar-main-col">
-
                   <div class="rd-navbar-panel">
-
                     <button class="rd-navbar-toggle" data-rd-navbar-toggle=".rd-navbar-nav-wrap"><span></span></button>
-
                     <div class="rd-navbar-brand">
                       <!--LINKS -->
                       <a class="brand" href="index.html">
-                        <img class="brand-logo-dark" src="images/logo-default-103x34.svg" alt="" width="103" height="34" loading="lazy"/><img class="brand-logo-light" src="images/logo-inverse-103x34.svg" alt="" width="103" height="34" loading="lazy"/></a>
+                      <img class="brand-logo-light logo" src="./images/logo.png" alt="logo" width="50" height="34" loading="lazy"/>
+                      </a>
                     </div>
                   </div>
                 </div>
@@ -48,36 +45,26 @@
                   <div class="rd-navbar-main-element">
                     <div class="rd-navbar-nav-wrap">
                       <ul class="rd-navbar-nav">
-
                         <li class="rd-nav-item"><a class="rd-nav-link" href="index.html">HOME</a>
                         </li>
-                        
                         <li class="rd-nav-item"><a class="rd-nav-link" href="products.html">OUR MENU</a>
                         </li>
-
                         <li class="rd-nav-item"><a class="rd-nav-link" href="faq.html">FAQ</a>
                         </li>
-
                         <li class="rd-nav-item"><a class="rd-nav-link" href="contact.html">ABOUT US</a>
                         </li>
-
                         <li class="rd-nav-item"><a class="rd-nav-link" href="contactus.html">CONCTACT US</a>
                         </li>
-
                         <li class="rd-nav-item"><a class="rd-nav-link" href="contact.html"></a>
                         </li>
-
-                        <li class="rd-nav-item"><a class="rd-nav-link" href="contact.html"> </a>
-                        </li> 
-
                         <li class="rd-nav-item"><a class="rd-nav-link" href="contact.html"> </a>
                         </li>
-                      </ul>                     
+                        <li class="rd-nav-item"><a class="rd-nav-link" href="contact.html"> </a>
+                        </li>
+                      </ul>
                     </div>
-                    
                     <!-- GAMBIARRA  -->
                     +1 (818) 514-3000  
-
                   </div>
                 </div>
                 <div class="rd-navbar-main-col">
@@ -89,11 +76,7 @@
           </nav>
         </div>
       </header>
-
-
-      
       <!-- TITULOS / HEADER  -->
-
       <section class="section swiper-container swiper-slider" data-swiper='{"autoplay":{"delay":4567},"effect":"fade"}'>
         <div class="swiper-wrapper text-center">
           <div class="swiper-slide context-dark" data-slide-bg="images/home-01-1920x1002.jpg">
@@ -104,13 +87,13 @@
                     <div data-caption-animate="fadeInUp" data-caption-delay="100"><img src="images/home-01-64x64.svg" alt="" width="64" height="64" loading="lazy"/>
                     </div>
                     <h1 class="offset-top-xl" data-caption-animate="fadeInUp" data-caption-delay="100"><span class="display-1">65 <span class="text-secondary">Minutes</span> or less</span></h1>
-                    <p class="big" data-caption-animate="fadeInUp" data-caption-delay="250">Get your order within 65 mins or less <br class="d-none d-xl-block"> </p><a class="btn btn-lg btn-primary offset-top-xl" href="products.html" data-caption-animate="fadeInUp" data-caption-delay="450">Our Menu</a>
+                    <p class="big" data-caption-animate="fadeInUp" data-caption-delay="250">Get your order within 65 mins or less <br class="d-none d-xl-block"> </p>
+                    <a class="btn btn-lg btn-primary offset-top-xl" href="products.html" data-caption-animate="fadeInUp" data-caption-delay="450">Our Menu</a>
                   </div>
                 </div>
               </div>
             </div>
           </div>
-          
           <div class="swiper-slide context-dark" data-slide-bg="images/home-01-1920x1002.jpg">
             <div class="swiper-slide-caption section-md">
               <div class="container">
@@ -119,14 +102,13 @@
                     <div data-caption-animate="fadeInUp" data-caption-delay="100"><img src="images/home-01-64x64.svg" alt="" width="64" height="64" loading="lazy"/>
                     </div>
                     <h2 class="h1 offset-top-xl" data-caption-animate="fadeInUp" data-caption-delay="100"><span class="display-1"><span class="text-secondary">FTP</span>Deals !</span></h2>
-                    <p class="big" data-caption-animate="fadeInUp" data-caption-delay="250">UP to 10% off and 1g for free.</p><a class="btn btn-lg btn-primary offset-top-xl" href="products.html" data-caption-animate="fadeInUp" data-caption-delay="450">Our Menu</a>
+                    <p class="big" data-caption-animate="fadeInUp" data-caption-delay="250">UP to 10% off and 1g for free.</p>
+                    <a class="btn btn-lg btn-primary offset-top-xl" href="products.html" data-caption-animate="fadeInUp" data-caption-delay="450">Our Menu</a>
                   </div>
                 </div>
               </div>
             </div>
           </div>
-
-
           <div class="swiper-slide context-dark" data-slide-bg="images/home-03-1920x1002.jpg">
             <div class="swiper-slide-caption section-md">
               <div class="container">
@@ -135,15 +117,14 @@
                     <div data-caption-animate="fadeInUp" data-caption-delay="100"><img src="images/home-01-64x64.svg" alt="" width="64" height="64" loading="lazy"/>
                     </div>
                     <h2 class="h1 offset-top-xl" data-caption-animate="fadeInUp" data-caption-delay="100"><span class="display-1"><span class="text-secondary"></span>LA, SANTA MONICA, VALLEY</span></h2>
-                    <p class="big" data-caption-animate="fadeInUp" data-caption-delay="250">Close to you no matter where you are</p><a class="btn btn-lg btn-primary offset-top-xl" href="products.html" data-caption-animate="fadeInUp" data-caption-delay="450">Our Menu</a>
+                    <p class="big" data-caption-animate="fadeInUp" data-caption-delay="250">Close to you no matter where you are</p>
+                    <a class="btn btn-lg btn-primary offset-top-xl" href="products.html" data-caption-animate="fadeInUp" data-caption-delay="450">Our Menu</a>
                   </div>
                 </div>
               </div>
             </div>
           </div>
         </div>
-
-
         <section class="section section-md bg-03">
           <div class="container">
             <div class="row row-50">
@@ -180,196 +161,163 @@
             </div>
           </div>
         </section>
-
-
-  
-      
-
-
-
-      <!-- MAIS VENDIDOS -->
-      <section class="section-lg bg-gray-100">
+        <!-- MAIS VENDIDOS -->
+        <section class="section-lg bg-gray-100">
+          <div class="container">
+            <div class="text-center">
+              <div class="badge badge-lg badge-secondary">Hot this month!</div>
+              <h2>Shop our deal products</h2>
+            </div>
+            <div class="tabs-custom tabs-horizontal tabs-classic" id="tabs-1">
+              <!--BARRA de navegacao -->
+              <ul class="nav nav-tabs">
+                <li class="nav-item" role="presentation"><a class="nav-link" href="#tabs-1-1" data-bs-toggle="tab"></a></li>
+                <li class="nav-item" role="presentation"><a class="nav-link" href="#tabs-1-2" data-bs-toggle="tab"></a></li>
+                <li class="nav-item" role="presentation"><a class="nav-link" href="#tabs-1-3" data-bs-toggle="tab"></a></li>
+                <li class="nav-item" role="presentation"><a class="nav-link" href="#tabs-1-4" data-bs-toggle="tab"></a></li>
+                <li class="nav-item" role="presentation"><a class="nav-link" href="#tabs-1-5" data-bs-toggle="tab"></a></li>
+              </ul>
+              <!--paineis de tab-->
+              <div class="tab-content">
+                <div class="tab-pane fade" id="tabs-1-1">
+                  <!-- Owl Carousel-->
+                  <div class="owl-carousel" data-items="1" data-sm-items="2" data-md-items="3" data-lg-items="3" data-xl-items="4" data-xxl-items="4" data-autoplay="true" data-owl="{&quot;nav&quot;:true,&quot;autoplayTimeout&quot;:3500}">
+                    <article>
+                      <div class="link-image image-block">
+                        <figure class="product-classic-figure"><img src="images/products/product-02-560x600.png" alt="" width="560" height="600" loading="lazy"/>
+                        </figure>
+                        <div class="product-classic-widgets">
+                          <div class="product-classic-badges badge-list"><a class="badge badge-500" href="#">Sativa</a>
+                          </div>
+                          <div class="product-classic-rating">
+                            <div class="rating">
+                              <div class="rating-empty">
+                                <svg width="13" height="13" viewBox="0 0 13 13">
+                                <div class="price-current">THC 24%</div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="product-classic-body">
+                        <h5 class="product-classic-title"><a href="single-product.html">Obama kush</a></h5>
+                        <div class="product-classic-text">This is a special deal fro our special customers.</div>
+                        <div class="product-classic-price price">
+                          <div class="price-old">$160</div>
+                          <div class="price-current">$99</div>
+                        </div>
+                      </div>
+                    </article>
+                    <article>
+                      <div class="link-image image-block">
+                        <figure class="product-classic-figure"><img src="images/products/product-02-560x600.png" alt="" width="560" height="600" loading="lazy"/>
+                        </figure>
+                        <div class="product-classic-widgets">
+                          <div class="product-classic-badges badge-list"><a class="badge badge-500" href="#">Sativa</a> </div>
+                          <div class="product-classic-rating">
+                            <div class="rating">
+                              <div class="rating-empty">
+                                <svg width="13" height="13" viewBox="0 0 13 13">
+                                <div class="price-current">THC 24%</div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="product-classic-body">
+                        <h5 class="product-classic-title"><a href="single-product.html">Mix & Match Purple</a></h5>
+                        <div class="product-classic-text">Mix and match half and half.</div>
+                        <div class="product-classic-price price">
+                          <div class="price-old">$160</div>
+                          <div class="price-current">$24</div>
+                        </div>
+                      </div>
+                    </article>
+                    <article>
+                      <div class="link-image image-block">
+                        <figure class="product-classic-figure"><img src="images/products/product-02-560x600.png" alt="" width="560" height="600" loading="lazy"/>
+                        </figure>
+                        <div class="product-classic-widgets">
+                          <div class="product-classic-badges badge-list"><a class="badge badge-500" href="#">Sativa</a>
+                          </div>
+                          <div class="product-classic-rating">
+                            <div class="rating">
+                              <div class="rating-empty">
+                                <svg width="13" height="13" viewBox="0 0 13 13">
+                                <div class="price-current">THC 24%</div>
+                              </div>
+                            </div>
+                          </div>
+                        </div>
+                      </div>
+                      <div class="product-classic-body">
+                        <h5 class="product-classic-title"><a href="single-product.html">Nug Salad</a></h5>
+                        <div class="product-classic-text">High quality shake.</div>
+                        <div class="product-classic-price price">
+                          <div class="price-old">$60</div>
+                          <div class="price-current">$35</div>
+                        </div>
+                      </div>
+                    </article>
+                  </div>
+                </div>
+                <div class="tab-pane fade" id="tabs-1-2">
+                  <div class="owl-carousel" data-items="1" data-sm-items="2" data-md-items="3" data-lg-items="3" data-xl-items="4" data-xxl-items="4" data-autoplay="true" data-owl="{&quot;nav&quot;:true,&quot;autoplayTimeout&quot;:3500}">
+                  </div>
+                </div>
+                <div class="tab-pane fade" id="tabs-1-3">
+                  <div class="owl-carousel" data-items="1" data-sm-items="2" data-md-items="3" data-lg-items="3" data-xl-items="4" data-xxl-items="4" data-autoplay="true" data-owl="{&quot;nav&quot;:true,&quot;autoplayTimeout&quot;:3500}">
+                  </div>
+                </div>
+                <div class="tab-pane fade" id="tabs-1-4">
+                </div>
+                <div class="tab-pane fade" id="tabs-1-5">
+                </div>
+              </div>
+            </div>
+          </div>
+        </section>
+        <!--Swiper Pagination-->
+        <div class="swiper-pagination"></div>
+      </section>
+      <section class="section section-md bg-gray-100">
         <div class="container">
-          <div class="text-center">
-            <div class="badge badge-lg badge-secondary">Hot this month!</div>
-            <h2>Shop our deal products</h2>
-          </div>
-          <div class="tabs-custom tabs-horizontal tabs-classic" id="tabs-1">
-
-
-
-            <!--BARRA de navegacao -->
-            <ul class="nav nav-tabs">
-              <li class="nav-item" role="presentation"><a class="nav-link" href="#tabs-1-1" data-bs-toggle="tab"></a></li>
-              <li class="nav-item" role="presentation"><a class="nav-link" href="#tabs-1-2" data-bs-toggle="tab"></a></li>
-              <li class="nav-item" role="presentation"><a class="nav-link" href="#tabs-1-3" data-bs-toggle="tab"></a></li>
-              <li class="nav-item" role="presentation"><a class="nav-link" href="#tabs-1-4" data-bs-toggle="tab"></a></li>
-              <li class="nav-item" role="presentation"><a class="nav-link" href="#tabs-1-5" data-bs-toggle="tab"></a></li>
-            </ul>
-
-
-            <!--paineis de tab-->
-            <div class="tab-content">
-              <div class="tab-pane fade" id="tabs-1-1">
-
-
-
-                <!-- Owl Carousel-->
-                <div class="owl-carousel" data-items="1" data-sm-items="2" data-md-items="3" data-lg-items="3" data-xl-items="4" data-xxl-items="4" data-autoplay="true" data-owl="{&quot;nav&quot;:true,&quot;autoplayTimeout&quot;:3500}">
-
-
-                        <article class="product-classic">
-                          <div class="product-classic-header">
-                            <figure class="product-classic-figure"><img src="images/products/product-02-560x600.png" alt="" width="560" height="600" loading="lazy"/>
-                            </figure>
-                            <div class="product-classic-widgets">
-                              <div class="product-classic-badges badge-list"><a class="badge badge-500" href="#">Sativa</a>
-                              </div>
-                              <div class="product-classic-rating">
-                                <div class="rating">
-                                  <div class="rating-empty">
-                                    <svg width="13" height="13" viewBox="0 0 13 13">
-                                      <div class="price-current">THC 24%</div>
-                                  </div>
-                                </div>
-                              </div>
-                            </div>
-                            </div>
-                          <div class="product-classic-body">
-                            <h5 class="product-classic-title"><a href="single-product.html">Obama kush</a></h5>
-                            <div class="product-classic-text">This is a special deal fro our special customers.</div>
-                            <div class="product-classic-price price">
-                              <div class="price-old">$160</div>
-                              <div class="price-current">$99</div>
-
-                            </div>
-                          </div>
-                        </article>
-
-                        <article class="product-classic">
-                          <div class="product-classic-header">
-                            <figure class="product-classic-figure"><img src="images/products/product-02-560x600.png" alt="" width="560" height="600" loading="lazy"/>
-                            </figure>
-                            <div class="product-classic-widgets">
-                              <div class="product-classic-badges badge-list"><a class="badge badge-500" href="#">Sativa</a> </div>
-                              <div class="product-classic-rating">
-                                <div class="rating">
-                                  <div class="rating-empty">
-                                    <svg width="13" height="13" viewBox="0 0 13 13">
-                                      <div class="price-current">THC 24%</div>
-                                  </div>
-                                </div>
-                              </div>
-                            </div>
-                            </div>
-                          <div class="product-classic-body">
-                            <h5 class="product-classic-title"><a href="single-product.html">Mix & Match Purple</a></h5>
-                            <div class="product-classic-text">Mix and match half and half.</div>
-                            
-                            <div class="product-classic-price price">
-                              <div class="price-old">$160</div>
-                              <div class="price-current">$24</div>
-
-                            </div>
-                          </div>
-                        </article>
-
-                        <article class="product-classic">
-                          <div class="product-classic-header">
-                            <figure class="product-classic-figure"><img src="images/products/product-02-560x600.png" alt="" width="560" height="600" loading="lazy"/>
-                            </figure>
-                            <div class="product-classic-widgets">
-                              <div class="product-classic-badges badge-list"><a class="badge badge-500" href="#">Sativa</a>
-                              </div>
-                              <div class="product-classic-rating">
-                                <div class="rating">
-                                  <div class="rating-empty">
-                                    <svg width="13" height="13" viewBox="0 0 13 13">
-                                      <div class="price-current">THC 24%</div>
-                                  </div>
-                                </div>
-                              </div>
-                            </div>
-                            </div>
-                          <div class="product-classic-body">
-                            <h5 class="product-classic-title"><a href="single-product.html">Nug Salad</a></h5>
-                            <div class="product-classic-text">High quality shake.</div>
-                            <div class="product-classic-price price">
-                              <div class="price-old">$60</div>
-                              <div class="price-current">$35</div>
-
-                            </div>
-                          </div>
-                        </article>
-
+          <div class="row row-50">
+            <div class="col-lg-4 col-sm-6">
+              <div class="unit align-items-center">
+                <div class="unit-left">
+                  <img src="images/blurb-07-80x80.svg" alt="" width="80" height="80" loading="lazy" />
                 </div>
-
-                
-
-
-
-
-
-              </div>
-              <div class="tab-pane fade" id="tabs-1-2">
-                <div class="owl-carousel" data-items="1" data-sm-items="2" data-md-items="3" data-lg-items="3" data-xl-items="4" data-xxl-items="4" data-autoplay="true" data-owl="{&quot;nav&quot;:true,&quot;autoplayTimeout&quot;:3500}">
+                <div class="unit-body">
+                  <h5>Text us</h5>
+                  <p>Product / Delivery Address / ID</p>
                 </div>
               </div>
-              <div class="tab-pane fade" id="tabs-1-3">
-                <div class="owl-carousel" data-items="1" data-sm-items="2" data-md-items="3" data-lg-items="3" data-xl-items="4" data-xxl-items="4" data-autoplay="true" data-owl="{&quot;nav&quot;:true,&quot;autoplayTimeout&quot;:3500}">
+            </div>
+            <div class="col-lg-4 col-sm-6">
+              <div class="unit align-items-center">
+                <div class="unit-left"><img src="images/blurb-08-80x80.svg" alt="" width="80" height="80" loading="lazy"/>
+                </div>
+                <div class="unit-body">
+                  <h5>Receive a confirmation</h5>
+                  <p>We will respond in a few minutes</p>
                 </div>
               </div>
-              <div class="tab-pane fade" id="tabs-1-4">
-              </div>
-              <div class="tab-pane fade" id="tabs-1-5">
+            </div>
+            <div class="col-lg-4 col-sm-6">
+              <div class="unit align-items-center">
+                <div class="unit-left"><img src="images/blurb-09-80x80.svg" alt="" width="80" height="80" loading="lazy"/>
+                </div>
+                <div class="unit-body">
+                  <h5>Meet the driver outside</h5>
+                  <p>Within 65 minutes or less</p>
+                </div>
               </div>
             </div>
           </div>
         </div>
-      </section>  
-      
-      <!--Swiper Pagination-->
-      <div class="swiper-pagination"></div>
-
-    </section>
-    <section class="section section-md bg-gray-100">
-      <div class="container">
-        <div class="row row-50">
-          <div class="col-lg-4 col-sm-6">
-            <div class="unit align-items-center">
-              <div class="unit-left"><img src="images/blurb-07-80x80.svg" alt="" width="80" height="80" loading="lazy"/>
-              </div>
-              <div class="unit-body">
-                <h5>Text us</h5>
-                <p>Product / Delivery Address / ID</p>
-              </div>
-            </div>
-          </div>
-          <div class="col-lg-4 col-sm-6">
-            <div class="unit align-items-center">
-              <div class="unit-left"><img src="images/blurb-08-80x80.svg" alt="" width="80" height="80" loading="lazy"/>
-              </div>
-              <div class="unit-body">
-                <h5>Receive a confirmation</h5>
-                <p>We will respond in a few minutes</p>
-              </div>
-            </div>
-          </div>
-          <div class="col-lg-4 col-sm-6">
-            <div class="unit align-items-center">
-              <div class="unit-left"><img src="images/blurb-09-80x80.svg" alt="" width="80" height="80" loading="lazy"/>
-              </div>
-              <div class="unit-body">
-                <h5>Meet the driver outside</h5>
-                <p>Within 65 minutes or less</p>
-              </div>
-            </div>
-          </div>
-        </div>
-      </div>
-    </section>
-    
-    <section class="section section-lg bg-gray-100 bg-image" style="background-image: url(images/bg-03.jpg)">
+      </section>
+      <section class="section section-lg bg-gray-100 bg-image" style="background-image: url(images/bg-03.jpg)">
       <div class="container">
         <div class="row row-50 align-items-center">
           <div class="col-md-6"><img src="images/home-04-462x533.jpg" alt="" width="462" height="533" loading="lazy"/>
@@ -378,53 +326,30 @@
             <div class="badge badge-lg badge-primary">CALIFORNIA SPIRIT</div>
             <h2>Providing High-Quality Recreational Cannabis</h2>
             <p class="big">We’ve learned how to be dope, fast and sensitive. You will find our core values expressed in everything we do, whether it is our recommendations, communication or delivery process.</p>
-
-
           </div>
         </div>
       </div>
-    
-
-
-      
       <!-- Review -->
-      
       <section class="section section-lg bg-transparent">
         <div class="text-center">
           <div class="badge badge-lg badge-secondary">California Spirit</div>
           <h2>What people say about us</h2>
         </div>
-        <div class="text-center">
-          
-        </div>
-
-        <div class="container">
-          <div class="row row-50">
-            <div class="col-lg-6">
-              <div class="card-lic">
-                
-                <div class="card-lic-body">
-                  <h3 class="card-lic-title">Mark</h3>
-                  <p class="big card-lic-text">"I haven’t smoked in at least 1 year. I only decided this time because I got a friend’s recommendation about CS. The customer service itself is dope. "</p>
-                </div>
-              </div>
- 
+        <div class="container slider-about">
+          <div class="card-lic">
+            <div class="card-lic-body">
+              <h3 class="card-lic-title">Mark</h3>
+              <p class="big card-lic-text">"I haven’t smoked in at least 1 year. I only decided this time because I got a friend’s recommendation about CS. The customer service itself is dope. "</p>
             </div>
-            <div class="col-lg-6">
-              <div class="card-lic">
-                
-                <div class="card-lic-body">
-                  <h3 class="card-lic-title">Sarah</h3>
-                  <p class="big card-lic-text">"It was so thoughtful of you to send me this lovely gift. You have no idea how happy I am after receiving it. Thank you for being so wonderful."</p>
-                </div>
-              </div>
-
+          </div>
+          <div class="card-lic">
+            <div class="card-lic-body">
+              <h3 class="card-lic-title">Sarah</h3>
+              <p class="big card-lic-text">"It was so thoughtful of you to send me this lovely gift. You have no idea how happy I am after receiving it. Thank you for being so wonderful."</p>
             </div>
           </div>
         </div>
       </section>
-
-      
       <section class="section section-md bg-gray-100">
         <div class="container">
           <div class="row row-50">
@@ -434,7 +359,6 @@
                 </div>
                 <div class="unit-body">
                   <h5>Valley</h5>
-                  
                 </div>
               </div>
             </div>
@@ -444,7 +368,6 @@
                 </div>
                 <div class="unit-body">
                   <h5>Los Angeles</h5>
-                  
                 </div>
               </div>
             </div>
@@ -454,22 +377,18 @@
                 </div>
                 <div class="unit-body">
                   <h5>Santa Monica</h5>
-                  
                 </div>
               </div>
             </div>
-
-            
           </div>
         </div>
       </section>
-      
-
       <footer class="section footer-classic context-dark bg-image" style="background-image: url(images/bg-06.jpg)">
         <div class="footer-classic-top-line">
           <div class="container">
             <div class="row row-50">
-              <div class="col-md-6"><a class="brand" href="index.html"><img src="images/logo-inverse-171x56.svg" alt="" width="171" height="56" loading="lazy"/></a>
+              <div class="col-md-6">
+                <a class="brand" href="index.html"><img src="images/footer.png" alt="" width="171" height="56" loading="lazy"/></a>
                 <h6 class="mt-20">© 2022 Mister Smoke copyright</h6>
               </div>
               <div class="col-md-6">
@@ -504,13 +423,12 @@
               <div class="col-xl-3 col-sm-6">
                 <h3 class="footer-classic-title">Company</h3>
                 <div class="footer-classic-nav-list footer-text-style">
-                  
                   <a class="footer-classic-nav-link" href="menu.html">Indica</a>
                   <a class="footer-classic-nav-link" href="faq-1.html">Hybrid</a>
                   <a class="footer-classic-nav-link" href="faq-1.html">Sativa</a>
-                  <a class="footer-classic-nav-link" href="contact.html">Edibles</a></div>
+                  <a class="footer-classic-nav-link" href="contact.html">Edibles</a>
+                </div>
               </div>
-              
             </div>
           </div>
         </div>
@@ -520,17 +438,25 @@
               <div class="col-md-6">
                 <p class="rights"><span>.</span><span>.&nbsp;</span><a href=https://sharpfocous.tech"">.</a></p>
               </div>
-
             </div>
           </div>
         </div>
       </footer>
     </div>
-
-    
     <div class="snackbars" id="form-output-global"></div>
     <script src="js/main/index.js"></script>
+    <script src="js/slick.min.js"></script>
     <script src="js/core.min.js"></script>
     <script src="js/script.js"></script>
+
+    <script>
+      $('.slider-about').slick({
+        dots: true,
+        infinite: true,
+        speed: 500,
+        slidesToShow: 2,
+        autoplay: true
+      });
+    </script>
   </body>
 </html>

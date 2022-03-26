@@ -7494,6 +7494,10 @@ html.rd-navbar-fixed-linked .page {
 	display: block;
 }
 
+.logo {
+	width: 30px;
+}
+
 .rd-navbar-classic.rd-navbar-static {
 	background-color: #333F24;
 	border-bottom: none;
@@ -7515,8 +7519,8 @@ html.rd-navbar-fixed-linked .page {
 .rd-navbar-classic.rd-navbar-static .rd-navbar-brand img {
 	width: auto;
 	height: auto;
-	max-width: 200px;
-	max-height: 200px;
+	max-width: 100px;
+	max-height: 100px;
 }
 
 .rd-navbar-classic.rd-navbar-static .rd-navbar-main-element {
@@ -9038,6 +9042,16 @@ button.swiper-pagination-bullet {
 	flex-direction: column;
 	padding: 30px 15px;
 	background-color: #f7f7f7;
+
+}
+
+/* the slides */
+.slick-slide {
+    margin: 0 10px;
+}
+/* the parent */
+.slick-list {
+    margin: 0 -10px;
 }
 
 @media (min-width: 576px) {
@@ -9045,16 +9059,6 @@ button.swiper-pagination-bullet {
 		flex-direction: row;
 		align-items: center;
 		padding: 50px;
-	}
-}
-
-.card-lic + * {
-	margin-top: 40px;
-}
-
-@media (min-width: 1200px) {
-	.card-lic + * {
-		margin-top: 60px;
 	}
 }
 

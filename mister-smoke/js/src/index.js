@@ -182,4 +182,3 @@ fetch("./js/mock/products.json").then(j => j.json()).then(r => {
     }
   });
 });
-
