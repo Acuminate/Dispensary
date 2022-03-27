@@ -3913,7 +3913,7 @@ a.pag-classic-link:hover {
 
 a.badge:hover {
 	color: #ffffff;
-	background-color: #333F24;
+	background-color: #546747	;
 }
 
 a.badge-secondary {
@@ -3924,18 +3924,18 @@ a.badge-secondary {
 
 a.badge-500 {
 	color: #ffffff;
-	background-color: #ae5449
+	background-color: #a761c7
 ;
 }
 
 a.badge-800 {
 	color: #ffffff;
-	background-color: #3A3A3A;
+	background-color: #546747	;
 }
 
 a.badge-800:hover {
 	color: #ffffff;
-	background-color: #546747
+	background-color: #2a341f
 ;
 }
 
